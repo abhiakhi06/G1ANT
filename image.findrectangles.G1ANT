@@ -1,0 +1,8 @@
+addon images version 4.103.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+
+♥image = ♥environment⟦USERPROFILE⟧\Desktop\image.png
+file.download https://static.makeuseof.com/wp-content/uploads/2016/06/PolkaDots2.jpg filename ♥image
+image.findrectangles ♥image
+dialog ♥result

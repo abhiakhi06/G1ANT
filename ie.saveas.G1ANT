@@ -1,0 +1,7 @@
+addon iexplorer version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+ie.open https://www.foobar2000.org/getfile/a1f3bb263a5bdba336264bbe58755a4b/foobar2000_v1.4.3.exe
+window ‴✱internet explorer✱‴
+delay 2
+ie.saveas ♥environment⟦USERPROFILE⟧\Desktop\food.exe

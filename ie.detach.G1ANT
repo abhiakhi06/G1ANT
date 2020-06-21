@@ -1,0 +1,10 @@
+addon iexplorer version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+ie.open google.com result ♥id1
+ie.open bing.com result ♥id2
+ie.switch ♥id1
+ie.gettitle
+dialog ♥result
+ie.detach
+ie.switch ♥id1 

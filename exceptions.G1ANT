@@ -1,0 +1,7 @@
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+label repeat
+try errorjump repeat
+  dialog.ask ‴Enter a digit (0-9):‴ result ♥input
+  ♥input = ⟦integer⟧♥input
+end

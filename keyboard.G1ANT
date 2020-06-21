@@ -1,0 +1,11 @@
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+chrome http://www.lipsum.com/
+delay 5
+program notepad
+window ‴Lorem Ipsum✱‴
+keyboard ⋘ctrl+a⋙⋘ctrl+c⋙
+window Untitled✱
+mouse.click position 0⫽0 relative false
+delay 5
+keyboard ⋘ctrl+v⋙ window last

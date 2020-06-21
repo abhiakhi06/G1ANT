@@ -1,0 +1,8 @@
+addon iexplorer version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+ie.open google.com nowait true
+window ✱internet✱
+ie.seturl g1ant.com
+ie.waitforcomplete 10000
+ie.seturl duckduckgo.com 

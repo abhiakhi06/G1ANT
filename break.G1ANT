@@ -1,0 +1,11 @@
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+for counter ♥cnt from 1 to 20
+  if ⊂♥cnt==10⊃
+    dialog Break!
+    break
+    dialog ‴This will not show, because the loop was broken‴
+  end
+end
+
+dialog ♥cnt
