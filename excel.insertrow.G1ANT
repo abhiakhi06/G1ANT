@@ -1,0 +1,10 @@
+addon msoffice version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+excel.open
+window ✱Excel
+keyboard ‴Remember, remember!‴⋘DOWN⋙
+keyboard ‴the fifth of November⋘DOWN⋙The Gunpowder treason and plot‴
+delay 2
+excel.insertrow row 3 where below
+dialog ‴Row inserted!‴

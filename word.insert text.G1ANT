@@ -1,0 +1,7 @@
+addon msoffice version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+♥sourceFile = ♥environment⟦USERPROFILE⟧\Desktop\test.docx
+♥toInsert = ‴I hate yogurt. It's just stuff with bits in. All I've got to do is pass as an ordinary human being. Simple. What could possibly go wrong? Saving the world with meals on wheels. I'm the Doctor, I'm worse than everyone's aunt. **catches himself** And that is not how I'm introducing myself.‴
+word.open ♥sourceFile
+word.inserttext ♥toInsert replacealltext true

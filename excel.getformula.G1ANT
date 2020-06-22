@@ -1,0 +1,7 @@
+addon msoffice version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+excel.getformula row 2 colindex 3
+dialog ♥result
+excel.getformula row 2 colname C
+dialog ♥result

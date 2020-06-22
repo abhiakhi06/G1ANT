@@ -1,0 +1,9 @@
+addon msoffice version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+excel.open
+window ✱Excel
+keyboard ‴THE wild bee reels from bough to bough ⋘DOWN⋙With his furry coat and his gauzy wing. ⋘DOWN⋙Now in a lily-cup, and now THE wild bee reels from bough to bough ⋘DOWN⋙Setting a jacinth bell a-swing,  ⋘DOWN⋙In his wandering; ⋘DOWN⋙Sit closer love: it was here I trow ⋘DOWN⋙I made that vow⋘DOWN⋙With his furry coat and his gauzy wing.‴
+keyboard ⋘ENTER⋙
+excel.getrow 3 result ♥rowInput
+dialog ♥rowInput

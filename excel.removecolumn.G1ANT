@@ -1,0 +1,8 @@
+addon msoffice version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+excel.open
+window ✱Excel
+keyboard one⋘RIGHT⋙two⋘RIGHT⋙three⋘RIGHT⋙
+excel.insertcolumn colname A where after
+excel.removecolumn colname A
