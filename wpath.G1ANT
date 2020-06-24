@@ -1,0 +1,5 @@
+addon ui version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+program charmap
+ui.settext ‴/ui[@name='Character Map']/ui[@id='104']‴ text G1ANT!

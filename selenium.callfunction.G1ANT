@@ -1,0 +1,8 @@
+addon selenium version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+selenium.open chrome url msn.com timeout 30000
+list.create text aa result ♥list
+selenium.callfunction search q by id functionname val parameters ♥list type jquery
+selenium.runscript script ‴return $('#q').val();‴
+dialog ♥result
