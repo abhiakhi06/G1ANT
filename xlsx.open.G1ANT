@@ -1,0 +1,6 @@
+addon xlsx version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+
+xlsx.open path C:\Users\HP\Desktop\test1.xlsx accessmode read createifnotexist true result ♥excelId1
+xlsx.open path C:\Users\HP\Desktop\test3.xlsx accessmode read createifnotexist true result ♥excelId1
