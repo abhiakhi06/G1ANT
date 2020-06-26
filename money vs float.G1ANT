@@ -1,0 +1,7 @@
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+♥float = ⟦float⟧1.00000000000000000000000000006
+dialog ♥float 
+♥money = ⟦money⟧1.00000000000000000000000000006
+program notepad
+keyboard ♥float⋘ENTER⋙♥money

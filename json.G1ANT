@@ -1,0 +1,9 @@
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+♥file = ♥environment⟦USERPROFILE⟧\Desktop\json.txt
+file.download https://support.oneskyapp.com/hc/en-us/article_attachments/202761727/example_2.json filename ♥file
+text.read ♥file result ♥jsonTxt
+dialog ♥jsonTxt
+♥json = ⟦json⟧♥jsonTxt
+dialog ♥json⟦quiz.maths.q1.question⟧
+dialog ♥json⟦quiz.sport.q1.options⟧

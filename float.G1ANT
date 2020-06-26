@@ -1,0 +1,12 @@
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+♥var1 = 8.33
+♥var2 = 1.345
+♥var3 = -3.14159265359
+dialog ♥var3 
+
+♥price = ⟦float⟧10
+dialog ♥price
+
+♥price_list = ⟦list:float⟧10.50❚10❚55.25❚199
+dialog ♥price_list

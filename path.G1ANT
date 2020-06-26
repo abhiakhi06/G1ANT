@@ -1,0 +1,6 @@
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+♥path = ⟦path⟧♥environment⟦USERPROFILE⟧\Desktop
+dialog ‴Name: ♥path⟦name⟧, path: ♥path⟦directory⟧, ext.: ♥path⟦extension⟧‴
+dialog ‴Does it exist? ♥path⟦exists⟧, Is it RO? ♥path⟦isreadonly⟧, Is it a file? ♥path⟦isfile⟧‴
+dialog ‴Content: ‴♥path⟦content⟧

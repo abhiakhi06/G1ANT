@@ -1,0 +1,13 @@
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+♥source = ‴<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="shortcut icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><meta name="theme-color" content="#000000"/><meta http-equiv="X-UA-Compatible" content="IE=edge"><link rel="manifest" href="/manifest.json"/><title>G1ANT.Manual</title><link href="/static/css/1.dd049548.chunk.css" rel="stylesheet"><link href="/static/css/main.aba137a9.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script src="/static/js/1.d5964837.chunk.js">first script</script><script src="/static/js/main.22ab479a.chunk.js">second script</script></body></html>‴
+♥html = ⟦html⟧♥source
+dialog ♥html⟦//title⟧
+dialog ♥html⟦//noscript⟧
+dialog ♥html⟦//body⟧
+dialog ♥html⟦//script⟧
+dialog ♥html⟦//script[2]⟧
+
+-now let's clear whole body of html:
+♥html⟦//body⟧ = cleared
+dialog ♥html

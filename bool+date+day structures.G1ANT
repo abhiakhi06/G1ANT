@@ -1,0 +1,16 @@
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+♥var=true
+dialog ♥var⟦number⟧ 
+
+♥myDate=⟦date⟧26.06.2020
+dialog ♥myDate
+dialog ♥myDate⟦year⟧
+dialog ♥myDate⟦month⟧
+dialog ♥myDate⟦day⟧
+
+♥myDate =  ⟦datetime⟧7:08:30
+dialog ♥myDate
+dialog ♥myDate⟦hour⟧
+dialog ♥myDate⟦year⟧
+dialog ♥myDate⟦dayofyear⟧ 

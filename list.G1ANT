@@ -1,0 +1,16 @@
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+♥listfruits = apple❚orange❚banana❚mango
+dialog ♥listfruits
+-counting the number of items
+dialog ♥listfruits⟦count⟧
+-replacing the elements
+♥fruits = apple❚mango❚melon❚kiwi
+♥fruits⟦2⟧ = banana
+dialog ♥fruits
+- Adding another element
+♥listfruits⟦add⟧= kiwi
+dialog ♥listfruits 
+
+♥var= 3
+dialog ♥listfruits⟦♥var⟧

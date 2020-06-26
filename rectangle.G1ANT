@@ -1,0 +1,18 @@
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+♥rectangle = 5⫽15⫽100⫽200
+dialog ♥rectangle⟦width⟧
+dialog ♥rectangle⟦height⟧
+dialog ♥rectangle⟦left⟧
+dialog ♥rectangle⟦top⟧
+dialog ♥rectangle⟦right⟧
+dialog ♥rectangle⟦bottom⟧
+
+♥square = 15⫽15⫽15⫽15⟦rectangle⟧32172⫽32086⫽32973⫽32509
+dialog ♥rectangle⟦width⟧
+dialog ♥rectangle⟦height⟧
+dialog ♥rectangle⟦left⟧
+dialog ♥rectangle⟦top⟧
+dialog ♥rectangle⟦right⟧
+dialog ♥rectangle⟦bottom⟧
+

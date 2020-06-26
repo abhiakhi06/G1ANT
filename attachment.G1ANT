@@ -1,0 +1,23 @@
+addon net version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+
+♥host = www.gmail.com
+♥login = ♥login
+♥password = ♥password
+♥from = 26/6/2020 6:30:52 AM
+
+-mail.imap host ♥host port 993 login ♥login password ♥password sincedate ♥from todate ♥date onlyunreadmessages false ignorecertificateerrors true result ♥messagesList
+
+imap.open imap.gmail.com login ♥login password ♥password ignorecertificateerrors true
+imap.getmails result ♥messagesList
+imap.close
+
+foreach ♥element in ♥messagesList
+  ♥attachments = ♥element⟦attachments⟧
+  foreach ♥singleAttachment in ♥attachments
+    ♥path = ♥singleAttachment⟦path⟧
+    dialog ♥path
+     file.copy path ♥path destinationpath ♥environment⟦USERPROFILE⟧\Desktop\♥singleAttachment⟦name⟧
+  end
+end

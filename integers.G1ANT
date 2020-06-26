@@ -1,0 +1,11 @@
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+
+-integers can vary range from -2,147,483,648 to 2,147,483,647.
+♥variable = 9
+dialog ♥variable-1
+
+♥i = 10❚2❚3❚4
+dialog ♥i⟦2⟧
+♥i⟦2⟧ = 8
+dialog ♥i

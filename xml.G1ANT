@@ -1,0 +1,7 @@
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+♥source=‴<?xml version="1.0" encoding="UTF-8"?><note><to>Robot</to><from>G1ANT</from><heading>Reminder</heading><body>Don't stop working!</body></note>‴
+♥xml = ⟦xml⟧♥source
+dialog ♥xml
+dialog ♥xml⟦note⟧
+dialog ♥xml⟦note/body⟧
