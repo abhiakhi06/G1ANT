@@ -1,0 +1,27 @@
+addon watson version 4.103.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+♥car = ♥environment⟦USERPROFILE⟧\Desktop\car.png
+file.download https://img.etimg.com/thumb/msid-73268134,width-640,resizemode-4,imgsize-35417/surprise-heard-of-a-sony-car.jpg filename ♥car
+dialog ♥car
+
+♥apiKey = OOlbeDctHcxd5NpT0pDASwq2Y3UhOeMuam9T5ywuySU5
+♥serverUri = https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?version=2018-03-19
+
+watson.classifyimage ♥car apikey ♥apiKey serveruri ♥serverUri
+dialog ♥result
+
+program notepad
+keyboard ‴The classification has been done for :-‴ 
+keyboard ♥car
+keyboard ⋘CTRL+S⋙
+delay 5
+keyboard ‴image description‴
+delay 2
+keyboard ⋘ENTER⋙
+delay 2
+dialog ‴You are done now! Keep doing this again‴
+keyboard ⋘ALT+F4⋙
+
+dialog ‴This is for your reference‴ 
+program ♥car 

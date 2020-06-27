@@ -1,0 +1,19 @@
+addon watson version 4.103.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+
+♥apiKey = Jy1wblNZUHH36x6YaSnwR25VgxdZthgibY7AHkptkoYQ
+♥serverUri = https://gateway-lon.watsonplatform.net/speech-to-text/api
+
+watson.speechtotext C:\Users\HP\Desktop\experiment.mp3 apikey ♥apiKey serveruri ♥serverUri result ♥record
+program notepad
+keyboard ♥record
+keyboard ⋘CTRL+S⋙
+keyboard ‴effort‴
+mouse.click position ⟦point⟧89⫽139
+delay 2
+mouse.click position ⟦point⟧1201⫽694
+delay 2
+keyboard ⋘ENTER⋙
+delay 2
+keyboard ⋘ALT+F4⋙

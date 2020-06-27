@@ -1,0 +1,18 @@
+addon selenium version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+
+selenium.open chrome url https://www.yatra.com/domestic-flights/
+delay 10
+
+selenium.type ‴Cochin‴  search //*[@id="BE_flight_origin_city"] by xpath
+selenium.type ‴Chennai‴ search //*[@id="BE_flight_destination_city"] by xpath
+selenium.click search //*[@id="BE_flight_flsearch_btn"] by xpath
+delay 10
+
+keyboard ⋘CTRL+P⋙
+delay 10
+keyboard ⋘ENTER⋙
+
+keyboard text ‴Available flights for the days‴
+keyboard ⋘ENTER⋙

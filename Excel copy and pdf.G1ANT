@@ -1,0 +1,65 @@
+addon selenium version 4.104.0.0
+addon msoffice version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+
+♥testfile1= ‴♥environment⟦USERPROFILE⟧\Desktop\Excel\Test1.xlsx‴
+♥testfile2= ‴♥environment⟦USERPROFILE⟧\Desktop\Excel\Test2.xlsx‴
+
+call copy
+
+procedure copy
+    excel.open path ♥testfile1 result ♥excel1
+    excel.open result ♥excel2
+    for counter ♥row from 3 to 10
+        call obtain
+        call change
+    end
+    excel.save path ♥testfile2
+end
+
+procedure obtain
+    excel.switch ♥excel1
+    excel.getvalue row ♥row colname c result ♥cell1
+    excel.getvalue row ♥row colname c result ♥cell2
+    excel.getvalue row ♥row colname c result ♥cell3
+    excel.getvalue row ♥row colname c result ♥cell4
+    excel.getvalue row ♥row colname c result ♥cell5
+    excel.getvalue row ♥row colname c result ♥cell6
+    excel.getvalue row ♥row colname c result ♥cell7
+    excel.getvalue row ♥row colname c result ♥cell8
+end
+
+procedure change 
+    excel.switch ♥excel2
+    excel.setvalue value ♥cell1 row ♥row colname c 
+    excel.setvalue value ♥cell2 row ♥row colname c 
+    excel.setvalue value ♥cell3 row ♥row colname c 
+    excel.setvalue value ♥cell4 row ♥row colname c 
+    excel.setvalue value ♥cell5 row ♥row colname c 
+    excel.setvalue value ♥cell6 row ♥row colname c 
+    excel.setvalue value ♥cell7 row ♥row colname c
+    excel.setvalue value ♥cell8 row ♥row colname c
+    
+end
+
+selenium.open chrome url https://www.ilovepdf.com/excel_to_pdf
+delay 10
+window ✱chrome✱ style maximize
+delay 2
+selenium.click search //*[@id="pickfiles"]/span by xpath
+delay 2 
+mouse.click position ⟦point⟧104⫽142
+delay 2
+mouse.click position ⟦point⟧761⫽244
+delay 2
+mouse.click position ⟦point⟧209⫽165
+delay 5
+selenium.click search //*[@id="processTaskTextBtn"] by xpath
+delay 10
+selenium.click search //*[@id="pickfiles"] by xpath
+delay 10
+selenium.close 
+
+
+ 
