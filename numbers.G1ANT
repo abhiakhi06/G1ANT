@@ -1,0 +1,14 @@
+addon python version 4.1.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+
+program C:\Users\HP\AppData\Local\Programs\Python\Python38-32\python.exe
+dialog ‴We will see numbers‴
+keyboard ‴a= input("Enter the number") ⋘ENTER⋙‴
+keyboard ‴ 2 ⋘ENTER⋙‴
+keyboard ‴b = input("Enter the number") ⋘ENTER⋙‴
+keyboard ‴ 4 ⋘ENTER⋙‴
+keyboard ‴c = a+b ⋘ENTER⋙‴
+keyboard ‴6 ⋘ENTER⋙‴
+keyboard ‴d= b*a ⋘ENTER⋙‴
+keyboard ‴8 ⋘ENTER⋙‴
