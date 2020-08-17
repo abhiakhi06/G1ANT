@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G1ANT.Addon.LineAndroid", "G1ANT.Addon.LineAndroid\G1ANT.Addon.LineAndroid.csproj", "{76041B21-2952-41EB-94F2-7DF63CCA11D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76041B21-2952-41EB-94F2-7DF63CCA11D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76041B21-2952-41EB-94F2-7DF63CCA11D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76041B21-2952-41EB-94F2-7DF63CCA11D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76041B21-2952-41EB-94F2-7DF63CCA11D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {035BD4A3-A69E-44E4-8B4A-3FE2D15BAFAC}
+	EndGlobalSection
+EndGlobal

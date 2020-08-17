@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G1ANT.Addon.Twitter", "G1ANT.Addon.Twitter\G1ANT.Addon.Twitter.csproj", "{EBBDA6D6-A69B-42F7-978A-BB32C058450F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBBDA6D6-A69B-42F7-978A-BB32C058450F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBBDA6D6-A69B-42F7-978A-BB32C058450F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBBDA6D6-A69B-42F7-978A-BB32C058450F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBBDA6D6-A69B-42F7-978A-BB32C058450F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {083A0573-7E1C-4776-9654-392FC47E4352}
+	EndGlobalSection
+EndGlobal
